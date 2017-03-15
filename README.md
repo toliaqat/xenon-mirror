@@ -1,3 +1,5 @@
+[![Build Status](https://ci.vmware.run/api/badges/toliaqat/xenon/status.svg)](https://ci.vmware.run/toliaqat/xenon)
+
 # 1.0 Brief Introduction to Xenon
 
 ## 1.1 Xenon Highlights
