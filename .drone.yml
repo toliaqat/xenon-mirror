@@ -1,0 +1,13 @@
+---
+clone:
+  tags: true
+  path: github.com/toliaqat/xenon
+
+build:
+  compile:
+    image: vmware/maven-xenon:latest
+    pull: true
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    commands:
+      - mvn install -P coverage -DskipGO=true
